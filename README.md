@@ -5,3 +5,5 @@
 Website: https://github.com/Kyubyong/wordvectors
 
 [DATA LICENSE]
+
+MIT
