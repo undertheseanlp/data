@@ -1,11 +1,13 @@
-# Word2vec Pretrained Vector
+# KyuWord2vecWikiVN
 
 [DATA DESCRIPTION]
 
 word2vec pretrained vectors of Vietnamese
 
-Author : Kyubyong
-Source : https://github.com/Kyubyong/wordvectors
+* ID     : kyu_word2vec_wiki_vn
+* Author : Kyubyong
+* Year   : 2016
+* Source : https://github.com/Kyubyong/wordvectors
 
 [DATA LICENSE]
 
