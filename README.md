@@ -1,6 +1,6 @@
 # KyuWord2vecWikiVN
 
-[DATA DESCRIPTION]
+#### DATA DESCRIPTION
 
 word2vec pretrained vectors of Vietnamese
 
@@ -9,6 +9,6 @@ word2vec pretrained vectors of Vietnamese
 * Year   : 2016
 * Source : https://github.com/Kyubyong/wordvectors
 
-[DATA LICENSE]
+#### LICENSE
 
 MIT
