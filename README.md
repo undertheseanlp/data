@@ -1,12 +1,5 @@
-# Data
+# <DATA NAME>
 
-How to add a data
+DATA DESCRIPTION
 
-Step 1: Checkout from data branch
-
-```
-git checkout data
-git checkout -B data.word_embedding
-```
-
-Step 2: Copy data
+DATA LICENSE
