@@ -2,7 +2,10 @@
 
 [DATA DESCRIPTION]
 
-Website: https://github.com/Kyubyong/wordvectors
+word2vec pretrained vectors of Vietnamese
+
+Author : Kyubyong
+Source : https://github.com/Kyubyong/wordvectors
 
 [DATA LICENSE]
 
