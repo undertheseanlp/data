@@ -1,5 +1,7 @@
 # Data
 
+![](https://img.shields.io/badge/version-1.1.6-brightgreen.svg)
+
 A collection of Vietnamese NLP Resources
 
 # Usage
