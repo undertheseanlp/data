@@ -1,12 +1,12 @@
-# [DATA NAME]
+# SonWord2vecNewsVN
 
-[DATA DESCRIPTION]
+Word2Vec model for Vietnamese
 
 ```
-ID     :
-Author :
-Year   :
-Source :
-Size   :
-License:
+ID     : son_word2vec_news_vn
+Author : Vu Xuan Son
+Year   : 2016
+Link   : https://github.com/sonvx/word2vecVN
+Size   : 708.2 MB
+License: Apache License 2.0
 ```
