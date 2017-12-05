@@ -1,12 +1,12 @@
-# [DATA NAME]
+# HoangWord2vecNewsVN
 
-[DATA DESCRIPTION]
+Word embeddings for Vietnamese
 
 ```
-ID     :
-Author :
-Year   :
-Source :
-Size   :
+ID     : hoang_word2vec_news_vn
+Author : Pham Thai Hoang
+Year   : 2017
+Link   : https://github.com/pth1993/NNVLP
+Size   : 1.1 GB
 License:
 ```
