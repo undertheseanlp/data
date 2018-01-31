@@ -12,7 +12,7 @@ Vietnamese NLP Resources
 
 ### Usage
 
-You can get data by downloading for this repository or using `underthesea download` command
+You can get data by downloading from this repository or using `underthesea download` command
 
 ```
 $ pip install underthesea
