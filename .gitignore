@@ -1,5 +1,5 @@
 node_modules
 .idea
-/transcripts/
 /videos/
+/transcripts/*
 !/transcripts/.gitkeep
