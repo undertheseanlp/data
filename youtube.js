@@ -14,9 +14,4 @@ var youtube = (videoId, filepath, option) => {
     });
 };
 
-(async () => {
-    await youtube("EKIGSAkCMB0", './videos/test.mp4');
-    console.log("DONE!");
-})();
-
 module.exports = youtube;

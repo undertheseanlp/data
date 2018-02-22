@@ -1,21 +1,24 @@
-var fs = require('fs');
-var youtubedl = require('youtube-dl');
+var ffmpeg = require('fluent-ffmpeg');
+/**
+ *    input - string, path of input file
+ *    output - string, path of output file
+ *    callback - function, node-style callback fn (error, result)
+ */
+function convert(input, output, callback) {
+    ffmpeg(input)
+        .output(output)
+        .on('end', function() {
+            console.log('conversion ended');
+            callback(null);
+        }).on('error', function(err){
+            console.log(err);
+            console.log('error: ', err.code, err.msg);
+            callback(err);
+        }).run();
+}
 
-var youtube = (videoId, filepath, option) => {
-    return new Promise(fulfill => {
-        var url = 'http://www.youtube.com/watch?v=' + videoId;
-        var video = youtubedl(url, option, {cwd: __dirname});
-
-        video.pipe(fs.createWriteStream(filepath));
-
-        video.on('end', function () {
-            fulfill();
-        })
-    });
-};
-
-(async () => {
-    await youtube("EKIGSAkCMB0", './videos/test.mp4', ['-f 18']);
-    console.log("DONE!");
-})();
-
+convert('./videos/test.mp4', './output.mp3', function(err){
+   if(!err) {
+       console.log('conversion complete');
+   }
+});
